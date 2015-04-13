@@ -322,4 +322,20 @@
   </xs:complexType>
 </xs:element>
 
+
+<xs:element name="weapon">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="id" type="xs:string"/>
+	  <xs:element name="rng" type="xs:numeric"/>
+	  <xs:element name="aoe" type="xs:numeric"/>
+	  <xs:element name="pow" type="xs:numeric"/>
+	  <xs:element name="effect" type="xs:string"/>
+	  <xs:element name="location" type="xs:string"/>
+	  </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
 </xs:schema>
