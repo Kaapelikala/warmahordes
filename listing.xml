@@ -101,6 +101,7 @@
 	  <xs:element name="cost" type="xs:numeric"/>
 	  <xs:element name="fa" type="xs:numeric"/>
 	  <xs:element name="weapons" type="xs:string"/>
+	  <xs:element name="locations" type="xs:numeric"/>
 	  <xs:element name="rules" type="xs:string"/>
 	  <xs:element name="health1" type="xs:numeric"/>
 	  <xs:element name="health2" type="xs:numeric"/>
@@ -132,6 +133,7 @@
 	  <xs:element name="cost" type="xs:numeric"/>
 	  <xs:element name="fa" type="xs:numeric"/>
 	  <xs:element name="weapons" type="xs:string"/>
+	  <xs:element name="locations" type="xs:numeric"/>
 	  <xs:element name="rules" type="xs:string"/>
 	  <xs:element name="health1" type="xs:numeric"/>
 	  <xs:element name="health3" type="xs:numeric"/>
@@ -270,6 +272,7 @@
 	  <xs:element name="arm" type="xs:numeric"/>
 	  <xs:element name="cmd" type="xs:numeric"/>
 	  <xs:element name="weapons" type="xs:string"/>
+	  <xs:element name="locations" type="xs:numeric"/>
 	  <xs:element name="rules" type="xs:string"/>
 	  <xs:element name="health" type="xs:numeric"/>
 	  <xs:element name="cost" type="xs:numeric"/>
@@ -332,7 +335,6 @@
 	  <xs:element name="aoe" type="xs:numeric"/>
 	  <xs:element name="pow" type="xs:numeric"/>
 	  <xs:element name="effect" type="xs:string"/>
-	  <xs:element name="location" type="xs:string"/>
 	  </xs:sequence>
   </xs:complexType>
 </xs:element>
